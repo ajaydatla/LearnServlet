@@ -19,5 +19,6 @@ public class FormServlet extends HttpServlet{
 		RequestDispatcher dispatcher = req.getRequestDispatcher("NewFile.jsp");
 		dispatcher.forward(req,resp);
 		//resp.sendRedirect("NewFile.jsp");
+		//next is jdbc
 	}
 }
